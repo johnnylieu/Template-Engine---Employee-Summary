@@ -20,7 +20,7 @@
 
 This program asks the user a series of questions then takes the answers and generates a html file with list of employees.
 
-Main menu:
+### Main menu:
 
 ![Main Menu](main_menu.gif "Main Menu")
 
