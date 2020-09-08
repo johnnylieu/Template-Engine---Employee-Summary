@@ -25,15 +25,18 @@ Main menu:
 ![Main Menu](main_menu.gif "Main Menu")
 
 Answered questions
+
 ⬇️⬇️⬇️
 ![Answered Questions](answered_questions.bmp "Answered Questions")
 
 Once user has completed adding all the employees, they will use the option to "Build my team"
+
 ⬇️⬇️⬇️
 
 ![Build Team](build_team.bmp "Build Team")
 
 then a html file is created with the list of employees
+
 ⬇️⬇️⬇️
 
 ![Rendered Page](built_webpage.bmp "Rendered Page")
