@@ -55,12 +55,48 @@ function internQues() {
         },
         {
             type: 'input',
+            name: 'email',
+            message: "What is the intern's email?"
+        },
+        {
+            type: 'input',
             name: 'school',
             message: 'Where did they intern attend school?'
-        }
+        },
     ])
     .then(function (answers) {
         const intern = new Intern(answers.name, answers.id, answers.email, answers.school);
+        employees.push(intern);
+        buildTeam();
+    });
+};
+
+function engineerQues() {
+    inquirer
+    .prompt([
+        {
+            type: 'input',
+            name: 'name',
+            message: "What is the engineer's name?"
+        },
+        {
+            type: 'input',
+            name: 'id',
+            message: "What is the engineer's ID"
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: "What is the engineer's email"
+        },
+        {
+            type: 'input',
+            name: 'github',
+            message: "What is the engineer's GitHub username"
+        }
+    ])
+    .then(function (answers) {
+        const intern = new Intern(answers.name, answers.id, answers.email, answers.github);
         employees.push(intern);
         buildTeam();
     });
