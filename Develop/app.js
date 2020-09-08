@@ -13,8 +13,8 @@ const render = require("./lib/htmlRenderer");
 let employees = [];
 // Write code to use inquirer to gather information about the development team members,
 // and to create objects for each team member (using the correct classes as blueprints!)
-const util = require('util');
-const thenableWriteFile = util.promisify(fs.writeFile);
+// const util = require('util');
+// const thenableWriteFile = util.promisify(fs.writeFile);
 
 // questions to ask
 function mainMenu () {
