@@ -22,7 +22,7 @@ This program asks the user a series of questions then takes the answers and gene
 
 ![Main Menu](main_menu.gif "Main Menu")
 ![Answered Questions](answered_questions.bmp "Answered Questions")
-![Rendered Page](built_webpage.bmp "Rendered Page")
+![Rendered Page](rendered_profile.bmp "Rendered Page")
 
 ## Usage
 
