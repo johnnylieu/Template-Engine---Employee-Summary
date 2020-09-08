@@ -32,7 +32,7 @@ This program asks the user a series of questions then takes the answers and gene
 
 ![Build Team](build_team.bmp "Build Team")
 
-#### then a html file is created with the list of employees:
+#### Then a html file is created with the list of employees:
 
 ![Rendered Page](built_webpage.bmp "Rendered Page")
 
