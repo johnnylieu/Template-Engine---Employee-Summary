@@ -51,7 +51,7 @@ function internQues() {
         {
             type: 'input',
             name: 'id',
-            message: "What is the intern's ID"
+            message: "What is the intern's ID?"
         },
         {
             type: 'input',
@@ -82,22 +82,53 @@ function engineerQues() {
         {
             type: 'input',
             name: 'id',
-            message: "What is the engineer's ID"
+            message: "What is the engineer's ID?"
         },
         {
             type: 'input',
             name: 'email',
-            message: "What is the engineer's email"
+            message: "What is the engineer's email?"
         },
         {
             type: 'input',
             name: 'github',
-            message: "What is the engineer's GitHub username"
+            message: "What is the engineer's GitHub username?"
         }
     ])
     .then(function (answers) {
-        const intern = new Intern(answers.name, answers.id, answers.email, answers.github);
-        employees.push(intern);
+        const engineer = new Engineer(answers.name, answers.id, answers.email, answers.github);
+        employees.push(engineer);
+        buildTeam();
+    });
+};
+
+function managerQues() {
+    inquirer
+    .prompt([
+        {
+            type: 'input',
+            name: 'name',
+            message: "What is the manager's name?"
+        },
+        {
+            type: 'input',
+            name: 'id',
+            message: "What is the manager's ID?"
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: "What is the manager's email?"
+        },
+        {
+            type: 'input',
+            name: 'officeNumber',
+            message: "What is the manager's office number?"
+        }
+    ])
+    .then(function (answers) {
+        const manager = new Manager(answers.name, answers.id, answers.email, answers.officeNumber);
+        employees.push(manager);
         buildTeam();
     });
 };
