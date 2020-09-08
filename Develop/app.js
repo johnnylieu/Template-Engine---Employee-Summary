@@ -17,6 +17,7 @@ let employees = [];
 // const thenableWriteFile = util.promisify(fs.writeFile);
 
 // questions to ask
+mainMenu();
 function mainMenu () {
 inquirer
     .prompt([
