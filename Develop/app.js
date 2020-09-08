@@ -46,8 +46,18 @@ function internQues() {
         {
             type: 'input',
             name: 'name',
-            message: 'What is your name?'
+            message: "What is the intern's name?"
         },
+        {
+            type: 'input',
+            name: 'id',
+            message: "What is the intern's ID"
+        },
+        {
+            type: 'input',
+            name: 'school',
+            message: 'Where did they intern attend school?'
+        }
     ])
     .then(function (answers) {
         const intern = new Intern(answers.name, answers.id, answers.email, answers.school);
