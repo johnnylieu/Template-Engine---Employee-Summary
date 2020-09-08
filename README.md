@@ -12,10 +12,10 @@
 
 ## Installation
 
-* Download my my files in its entirety.
+* Download my files in its entirety.
 * Using your terminal, navigate to the "develop" folder on your desktop.
 * Use command "node app.js" in your terminal without the quotations.
-`
+
 ## Summary
 
 This program asks the user a series of questions then takes the answers and generates a html file with list of employees.
