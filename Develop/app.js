@@ -141,7 +141,7 @@ function buildTeam() {
             type: 'list',
             name: 'buildTeam',
             choices: ['Build my team', 'Add another employee'],
-            message: 'Would you like to build your build or add another employee?'
+            message: 'Would you like to build your team or add another employee?'
         },
     ])
     .then(function (answers) {
